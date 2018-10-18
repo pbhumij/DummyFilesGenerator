@@ -15,7 +15,7 @@ namespace Ziroh.Extras
             TestFile testFile = new TestFile(@"C:\Users\prash\Desktop\entry_points.txt");
 
             //provide the number of files to be generated and the destination folder where it
-            //should be generated.
+            //should be generated. Make sure it ends with a '\'
             testFile.CreateDummyFiles(3,@"D:\");
         }
     }
