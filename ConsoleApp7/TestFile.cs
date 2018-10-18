@@ -41,7 +41,6 @@ namespace Ziroh.Extras
                             {
                                 fstream.Write(fileBytes, 0, bytesRead);
                                 fstream.Flush();
-                                newOffset += (int)fs.Length;
                             }
                         }
                     }
