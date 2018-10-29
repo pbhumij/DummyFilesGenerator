@@ -16,7 +16,7 @@ namespace Ziroh.Extras
 
             //provide the number of files to be generated and the destination folder where it
             //should be generated. Make sure it ends with a '\'
-            testFile.CreateDummyFiles(3000,@"D:\test\");
+            testFile.CreateDummyFiles(30,@"D:\test\memory\");
         }
     }
 }
